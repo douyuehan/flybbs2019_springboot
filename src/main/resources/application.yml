@@ -4,7 +4,7 @@ spring:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/spring?characterEncoding=UTF-8
+    url: jdbc:mysql://127.0.0.1:3306/flybbs?characterEncoding=UTF-8
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
@@ -22,5 +22,5 @@ spring:
       min-evictable-idle-time-millis: 300000
 
 mybatis:
-  typeAliasesPackage: com.example.demo.entity
+  typeAliasesPackage: com.neusoft.domain
   mapperLocations: classpath:mapper/*.xml
